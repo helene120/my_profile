@@ -1,0 +1,49 @@
+.avatar {
+	border-radius: 150%;
+	width: 200px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+
+body {
+	background: #FEE9E1;
+	color: #6056A3;
+	font-family: 'Chilanka', cursive;
+	margin: 80px;
+}
+
+h1,h2,h3,h4 {
+	color: #BC555D;	
+}
+
+.me{
+background-color: #EDBBB4;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,.3);
+padding: 0px 30px 0px 30px ;
+margin-top: 40px;
+margin-bottom: 40px
+} 
+
+
+.container{
+	display: flex;
+	justify-content: center;
+flex-direction: row-reverse;
+}
+.items{
+	flex-direction: column;
+	margin-left: 15px;
+	margin-top: 50px;
+	justify-content: flex-start;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
